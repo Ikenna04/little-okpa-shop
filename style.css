@@ -1,0 +1,46 @@
+html {
+  font-size: 22px;
+}
+
+.tac {
+  text-align: center;
+}
+
+body {
+  background-color: #333;
+  color: whitesmoke;
+  padding: 20px;
+  margin: 10px auto;
+  justify-content: space-around;
+  align-items: center;
+  width: 430px;
+  border-left: 3px solid whitesmoke;
+  border-right: 3px solid whitesmoke;
+}
+
+table,
+tr,
+th,
+td,
+caption {
+  border: 1px solid #eee;
+  font-family: "Courier New", Courier, monospace;
+  border-collapse: collapse;
+  padding: 0.5rem;
+}
+
+figure,
+img {
+  margin: 0 auto;
+  width: 100%;
+}
+
+span {
+  text-decoration: line-through;
+}
+
+a:any-link {
+  color: #ddd;
+  text-decoration: none;
+  background: #222;
+}
